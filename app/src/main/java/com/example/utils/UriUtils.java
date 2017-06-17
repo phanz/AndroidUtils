@@ -15,6 +15,10 @@ import android.provider.MediaStore;
 
 public class UriUtils {
 
+    public void test(){
+
+    }
+
     public String getPathFromUri(Context context,Uri uri) {
         String imgPath = "";
         String[] proj = { MediaStore.Images.Media.DATA };
